@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>5 Types of Git Flow Branches</title>
+	</head>
+<body>
+	<h1>5 Types of Git Flow Branches</h1>
+	<div>
+		<p>
+			In the proper environment, the development of a project will be defined by how git is used. Ideally, all development will occur in branches that are NOT the master. Let's take a look at what these branches are:
+		<ul>
+		<li>Master branch: This is the the place where perfect code lives. <em>No</em> development should occur on this branch. Consider it sacrosanct.</li>
+		<li>Development branch: This branch should reflect current working code, and should be the branch from which all other branches fork off. </li>
+		<li>Feature branches: Forked off the development branch, feature branches are where the development actually happens. These branches will be merged back into the development branch once the feature is fully operational and ready to be added to the master branch.</li>
+		<li>Release branch: This branch emerges from development, and represents all the completed code for that version. It lives between the master and the development branches.</li>
+		<li>Hot fix branches: These are tiny branches that may be created directly from the master branch, with the sole purpose of applying immediate, necessary fixes to the code such as security patches. Use them sparingly or ideally not at all.</li>
+		</ul>
+		</p>
+		<p>Work on a ticket will begin by forking a feature branch off the development branch. Once the work on the feature is complete, that branch will be merged back into the development branch, where it will be intergrated with the current working code. After that happens, </p>
+	</div>
+</body>
